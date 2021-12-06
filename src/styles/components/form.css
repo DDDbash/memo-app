@@ -1,0 +1,68 @@
+.overlay-form {
+  position: absolute;
+  top: 0vh;
+  left: 5vw;
+  right: 0px;
+  width: 90vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+  opacity: 0;
+  padding: 80px 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: opacity 500ms ease-in-out;
+}
+
+.show {
+  z-index: 2;
+  opacity: 1;
+}
+
+.overlay-form .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.overlay-form h1 {
+  font-size: 32px;
+  color: #fff;
+}
+
+.overlay-form .form-element {
+  margin: 20px 0px;
+}
+
+.overlay-form label {
+  display: block;
+  font-size: 17px;
+  color: #eee;
+  margin-bottom: 5px;
+}
+
+.overlay-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.overlay-form button {
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  text-transform: capitalize;
+  background: #fff;
+  color: #222;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90vw;
+  margin: 5rem 0;
+  max-width: var(--fixed-width);
+  background: var(--grey-3);
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  box-shadow: var(--dark-shadow);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top h3 {
+  width: 100vw;
+  font-weight: normal;
+  text-transform: none;
+  margin-bottom: 2rem;
+}
+
+.memo {
+  display: flex;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--grey-1);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memo .headers {
+  width: 100%;
+}
+
+.memo h4 {
+  margin-bottom: 0.35rem;
+}
+
+.memo p {
+  margin-bottom: 0;
+  color: var(--grey-2);
+}
